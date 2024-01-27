@@ -1,0 +1,18 @@
+#Update to Windows Server 2016 - Most recent
+# https://www.catalog.update.microsoft.com/Search.aspx?q=Windows+Server+2016
+# Choose the most recent update at the top:
+#	2023-11 Servicing Stack Update for Windows Server 2016 for x64-based Systems (KB5032391) 
+# Click the download button
+# To apply the update, open the downloaded file in File Explorer. Then, open an administrator Powershell. 
+# Once the powershell is opened, drag the file to the open powershell. Make sure you are in administrator mode. 
+# Once the path is in the powershell, press enter and the updates should be applied. 
+# If an error occurs, follow these steps for troubleshooting:
+
+You might need to change the Windows Update service settings, and then restart the service.
+To change or restart the Windows Update service:
+You must be logged on as an administrator to perform these steps.
+Open Administrative Tools by clicking the Start button Picture of the Start button, and then clicking Control Panel. In the search box, type administrative tools, and then click Administrative Tools.
+Double-click Services.  Administrator permission required If you're prompted for an administrator password or confirmation, type the password or provide confirmation.
+Click the Name column heading to sort the names in reverse order. Find the Windows Update service, right-click it, and then click Properties.
+On the General tab, next to Startup type, make sure that Automatic is selected.
+Next to Service status, check to see if the service is started. If it is not, click Start.  Administrator permission required If you're prompted for an administrator password or confirmation, type the password or provide confirmation.
